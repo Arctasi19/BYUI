@@ -1,11 +1,35 @@
-body {
-    background-color: lightblue;
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
-.main-para {
+p {
+    width: 80%;
+}
+a {
     font-size: 1.5em;
-    line-height: 1.5em;
 }
-#active {
+a:hover {
     background-color: white;
     color: steelblue;
+}
+body {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
 }
